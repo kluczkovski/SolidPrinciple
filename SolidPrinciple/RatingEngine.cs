@@ -28,7 +28,7 @@ namespace SolidPrinciple
             switch (policy.Type)
             {
                 case PolicyType.Auto:
-                    Console.WriteLine("Rating AUTO policy...");
+                    Console.WriteLine("Rating AUTO policy....");
                     Console.WriteLine("Validating policy.");
                     if (String.IsNullOrEmpty(policy.Make))
                     {
