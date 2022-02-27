@@ -24,7 +24,10 @@ namespace SolidPrinciple
         public int Year { get; set; }
         public int Miles { get; set; }
         public decimal Deductible { get; set; }
+        #endregion
 
-        #endregion 
+        #region Flood In Addition To Land
+        public int ElevationAboveSeaLevelFeet { get; set; }
+        #endregion
     }
 }
